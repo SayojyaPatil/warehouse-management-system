@@ -1,8 +1,26 @@
-__pycache__/
-*.pyc
+# Local environment and credentials
 .env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases
 *.db
-.venv/
-.venv/
-.venv/
+*.sqlite
+*.sqlite3
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
